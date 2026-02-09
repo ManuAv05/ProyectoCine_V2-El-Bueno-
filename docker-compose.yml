@@ -3,11 +3,11 @@ services:
     container_name: cine_db_container
     image: postgres:15
     environment:
-      POSTGRES_USER: cine_user
-      POSTGRES_PASSWORD: cine_password
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
       POSTGRES_DB: cine_db
     ports:
-      - "5432:5432"
+      - "54321:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     restart: always
