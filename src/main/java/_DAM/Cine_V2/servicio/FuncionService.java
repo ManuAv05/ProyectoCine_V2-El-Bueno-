@@ -1,6 +1,6 @@
 package _DAM.Cine_V2.servicio;
 
-import _DAM.Cine_V2.dto.FuncionDTO;
+import _DAM.Cine_V2.dto.cinema.FuncionDTO;
 import _DAM.Cine_V2.mapper.FuncionMapper;
 import _DAM.Cine_V2.modelo.Funcion;
 import _DAM.Cine_V2.modelo.Pelicula;

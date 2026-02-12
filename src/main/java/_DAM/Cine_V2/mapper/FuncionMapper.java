@@ -1,6 +1,6 @@
 package _DAM.Cine_V2.mapper;
 
-import _DAM.Cine_V2.dto.FuncionDTO;
+import _DAM.Cine_V2.dto.cinema.FuncionDTO;
 import _DAM.Cine_V2.modelo.Funcion;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

@@ -1,6 +1,6 @@
 package _DAM.Cine_V2.servicio;
 
-import _DAM.Cine_V2.dto.RolDTO;
+import _DAM.Cine_V2.dto.auth.RolDTO;
 import _DAM.Cine_V2.mapper.RolMapper;
 import _DAM.Cine_V2.modelo.Rol;
 import _DAM.Cine_V2.repositorio.RolRepository;

@@ -1,6 +1,6 @@
 package _DAM.Cine_V2.servicio;
 
-import _DAM.Cine_V2.dto.DirectorDTO;
+import _DAM.Cine_V2.dto.movie.DirectorDTO;
 import _DAM.Cine_V2.mapper.DirectorMapper;
 import _DAM.Cine_V2.modelo.Director;
 import _DAM.Cine_V2.repositorio.DirectorRepository;

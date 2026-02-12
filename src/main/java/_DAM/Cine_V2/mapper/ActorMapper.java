@@ -1,6 +1,6 @@
 package _DAM.Cine_V2.mapper;
 
-import _DAM.Cine_V2.dto.ActorDTO;
+import _DAM.Cine_V2.dto.movie.ActorDTO;
 import _DAM.Cine_V2.modelo.Actor;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;

@@ -1,7 +1,7 @@
 package _DAM.Cine_V2.servicio;
 
-import _DAM.Cine_V2.dto.EntradaDTO;
-import _DAM.Cine_V2.dto.VentaDTO;
+import _DAM.Cine_V2.dto.cinema.EntradaDTO;
+import _DAM.Cine_V2.dto.cinema.VentaDTO;
 import _DAM.Cine_V2.mapper.EntradaMapper;
 import _DAM.Cine_V2.mapper.VentaMapper;
 import _DAM.Cine_V2.modelo.*;

@@ -1,6 +1,6 @@
 package _DAM.Cine_V2.servicio;
 
-import _DAM.Cine_V2.dto.SalaDTO;
+import _DAM.Cine_V2.dto.cinema.SalaDTO;
 import _DAM.Cine_V2.mapper.SalaMapper;
 import _DAM.Cine_V2.modelo.Sala;
 import _DAM.Cine_V2.repositorio.SalaRepository;

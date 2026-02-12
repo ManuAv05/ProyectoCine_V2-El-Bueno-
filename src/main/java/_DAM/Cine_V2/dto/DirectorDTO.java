@@ -1,8 +1,0 @@
-package _DAM.Cine_V2.dto;
-
-import jakarta.validation.constraints.NotBlank;
-
-public record DirectorDTO(
-        Long id,
-        @NotBlank(message = "El nombre no puede estar vacío") String nombre) {
-}
