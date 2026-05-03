@@ -275,6 +275,7 @@ En `UsuarioService.java`:
 ```java
 public LoginResponseDTO login(LoginRequestDTO request) {
     // 1. Buscar por email
+    // Cambiar por BadCredentialsException
     Usuario usuario = repository.findByEmail(request.email())
         .orElseThrow(() -> new EntityNotFoundException("Usuario no encontrado"));
 
@@ -1073,7 +1074,7 @@ public class JwtUtil {
 </div>
 
 <div class="flex items-center gap-4 text-sm">
-  <div class="bg-purple-900/50 font-mono px-2 py-1 rounded w-32 text-right text-purple-300">.subject()</div>
+  <div class="bg-purple-900/50 font-mono px-2 py-1 rounded w-32 text-right text-purple-300">.setSubject()</div>
   <div class="opacity-50">➡️</div>
   <div>"Este DNI pertenece a <b>pepe@gmail.com</b>"</div>
 </div>
@@ -1112,8 +1113,9 @@ public class JwtUtil {
 Ahora el login no devuelve un `Usuario`, devuelve un `LoginResponseDTO` con el token.
 
 ```java
-public LoginResponseDTO login(LoginRequest req) {
-    Usuario u = repo.findByEmail(req.email())
+// OJO: HAY QUE INJECTAR private final JwtUtil jwtUtil; EN EL SERVICIO
+public LoginResponseDTO login(LoginRequestDTO req) {
+    Usuario usuarioRepository = repo.findByEmail(req.email())
             .orElseThrow(() -> new BadCredentialsException("Usuario no encontrado"));
     
     if (!passwordEncoder.matches(req.password(), u.getPassword())) 
