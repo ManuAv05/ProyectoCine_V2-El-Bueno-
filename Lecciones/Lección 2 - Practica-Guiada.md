@@ -1000,8 +1000,6 @@ jwt.expiration=3600000
 
 # 3.7 JwtUtil: La Implementación 🛠️
 
-<div class="h-[430px] overflow-y-auto pr-4 scrollbar-thin scrollbar-thumb-purple-500 scrollbar-track-gray-800">
-
 ```java
 @Component
 public class JwtUtil {
@@ -1024,31 +1022,41 @@ public class JwtUtil {
 
     public String generateToken(Usuario usuario) {
         return Jwts.builder()
-            .subject(usuario.getEmail())     
-            .claim("role", usuario.getRol()) 
-            .issuedAt(new Date())            
-            .expiration(new Date(System.currentTimeMillis() + expirationTime)) 
-            .signWith(key)                   
-            .compact();                      
+            .setSubject(usuario.getEmail())
+            .claim("roles",
+                    usuario.getRoles()
+                            .stream()
+                            .map(Rol::getNombre)
+                            .toList()
+            )
+            .setIssuedAt(new Date())
+            .setExpiration(new Date(System.currentTimeMillis() + expirationTime))
+            .signWith(key)
+            .compact();                   
     }
 
     public boolean validateToken(String token) {
         try {
-            Jwts.parser().verifyWith(key).build().parseSignedClaims(token);
+            Jwts.parserBuilder()
+                    .setSigningKey(key)
+                    .build()
+                    .parseClaimsJws(token);
             return true;
         } catch (JwtException e) {
-            return false; // Firma inválida o expirado
+            return false;
         }
     }
 
     public String extractUsername(String token) {
-        return Jwts.parser().verifyWith(key).build()
-            .parseSignedClaims(token).getPayload().getSubject();
+        return Jwts.parserBuilder()
+                .setSigningKey(key)
+                .build()
+                .parseClaimsJws(token)
+                .getBody()
+                .getSubject();
     }
 }
 ```
-
-</div>
 
 
 ---

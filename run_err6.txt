@@ -1,0 +1,400 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< 2DAM:Cine_V2_Base >--------------------------
+[INFO] Building Cine_V2_Base 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ Cine_V2_Base ---
+[INFO] Deleting C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-\target
+[INFO] 
+[INFO] >>> spring-boot:4.0.2:run (default-cli) > test-compile @ Cine_V2_Base >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Cine_V2_Base ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ Cine_V2_Base ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 77 source files with javac [debug parameters release 21] to target\classes
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Actor.java:[25,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Pelicula.java:[32,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Pelicula.java:[35,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Funcion.java:[35,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Sala.java:[26,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Venta.java:[29,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Director.java:[25,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Usuario.java:[27,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Usuario.java:[31,22] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/mapper/UsuarioMapper.java:[33,10] Unmapped target property: "enabled".
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/mapper/ActorMapper.java:[15,11] Unmapped target properties: "id, peliculas".
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/mapper/ActorMapper.java:[18,10] Unmapped target property: "peliculas".
+[INFO] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/security/JwtAuthenticationFilter.java: C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-\src\main\java\_DAM\Cine_V2\security\JwtAuthenticationFilter.java uses or overrides a deprecated API.
+[INFO] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/security/JwtAuthenticationFilter.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Cine_V2_Base ---
+[INFO] skip non existing resourceDirectory C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ Cine_V2_Base ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target\test-classes
+[INFO] 
+[INFO] <<< spring-boot:4.0.2:run (default-cli) < test-compile @ Cine_V2_Base <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.2:run (default-cli) @ Cine_V2_Base ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.2)
+
+2026-03-19T14:11:42.939+01:00  INFO 15916 --- [Cine_V2] [           main] _DAM.Cine_V2.CineV2Application           : Starting CineV2Application using Java 21.0.9 with PID 15916 (C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-\target\classes started by Manuel in C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-)
+2026-03-19T14:11:42.942+01:00  INFO 15916 --- [Cine_V2] [           main] _DAM.Cine_V2.CineV2Application           : No active profile set, falling back to 1 default profile: "default"
+2026-03-19T14:11:43.560+01:00  INFO 15916 --- [Cine_V2] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19T14:11:43.641+01:00  INFO 15916 --- [Cine_V2] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 9 JPA repository interfaces.
+2026-03-19T14:11:44.117+01:00  INFO 15916 --- [Cine_V2] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-19T14:11:44.129+01:00  INFO 15916 --- [Cine_V2] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-19T14:11:44.129+01:00  INFO 15916 --- [Cine_V2] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-19T14:11:44.196+01:00  INFO 15916 --- [Cine_V2] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1201 ms
+2026-03-19T14:11:44.299+01:00  INFO 15916 --- [Cine_V2] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19T14:11:44.347+01:00  INFO 15916 --- [Cine_V2] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-19T14:11:44.752+01:00  INFO 15916 --- [Cine_V2] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19T14:11:44.780+01:00  INFO 15916 --- [Cine_V2] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-19T14:11:44.913+01:00  INFO 15916 --- [Cine_V2] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77cc6a28
+2026-03-19T14:11:44.914+01:00  INFO 15916 --- [Cine_V2] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-19T14:11:44.960+01:00  WARN 15916 --- [Cine_V2] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19T14:11:44.982+01:00  INFO 15916 --- [Cine_V2] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5433/cine_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.15
+	Default catalog/schema: cine_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19T14:11:45.997+01:00  INFO 15916 --- [Cine_V2] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table actor (id bigint generated by default as identity, nombre varchar(255), primary key (id))
+Hibernate: create table director (id bigint generated by default as identity, nombre varchar(255), primary key (id))
+Hibernate: create table entrada (id bigint generated by default as identity, asiento integer not null, codigo varchar(255), estado varchar(255) check ((estado in ('DISPONIBLE','VENDIDA','RESERVADA','CANCELADA'))), fila integer not null, funcion_id bigint, venta_id bigint, primary key (id))
+Hibernate: create table funcion (id bigint generated by default as identity, fecha_hora timestamp(6), precio float(53) not null, pelicula_id bigint, sala_id bigint, primary key (id))
+Hibernate: create table pelicula (id bigint generated by default as identity, duracion integer not null, edad_minima integer not null, titulo varchar(255), director_id bigint, primary key (id))
+Hibernate: create table pelicula_actor (pelicula_id bigint not null, actor_id bigint not null, primary key (pelicula_id, actor_id))
+Hibernate: create table rol (id bigint generated by default as identity, nombre varchar(255), primary key (id))
+Hibernate: create table sala (id bigint generated by default as identity, capacidad integer not null, nombre varchar(255), primary key (id))
+Hibernate: create table usuario (id bigint generated by default as identity, email varchar(255), enabled boolean not null, password varchar(255), primary key (id))
+Hibernate: create table usuario_rol (usuario_id bigint not null, rol_id bigint not null, primary key (usuario_id, rol_id))
+Hibernate: create table venta (id bigint generated by default as identity, estado varchar(255), fecha timestamp(6), importe_total float(53) not null, metodo_pago varchar(255), usuario_id bigint, primary key (id))
+Hibernate: alter table if exists entrada add constraint FKovxf0dko2rwo35kbh9xv61mok foreign key (funcion_id) references funcion
+Hibernate: alter table if exists entrada add constraint FKflvnd5s54v8g4gk4me7c7qm2l foreign key (venta_id) references venta
+Hibernate: alter table if exists funcion add constraint FKrg3moehotogvep1rxqgtb6swh foreign key (pelicula_id) references pelicula
+Hibernate: alter table if exists funcion add constraint FKtduw4tg8j1ptlfh96j40mq988 foreign key (sala_id) references sala
+Hibernate: alter table if exists pelicula add constraint FK1nxhpifmst5svcf6iki2psxl4 foreign key (director_id) references director
+Hibernate: alter table if exists pelicula_actor add constraint FK18aeeaus5rjw4ib6uauxe3gdr foreign key (actor_id) references actor
+Hibernate: alter table if exists pelicula_actor add constraint FKg12qqv73p75bk6dvayct1i1mt foreign key (pelicula_id) references pelicula
+Hibernate: alter table if exists usuario_rol add constraint FK610kvhkwcqk2pxeewur4l7bd1 foreign key (rol_id) references rol
+Hibernate: alter table if exists usuario_rol add constraint FKbyfgloj439r9wr9smrms9u33r foreign key (usuario_id) references usuario
+Hibernate: alter table if exists venta add constraint FKb28d98ltkhb0f8g3qypy8q2tl foreign key (usuario_id) references usuario
+2026-03-19T14:11:46.439+01:00  INFO 15916 --- [Cine_V2] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19T14:11:46.507+01:00  INFO 15916 --- [Cine_V2] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19T14:11:46.929+01:00  WARN 15916 --- [Cine_V2] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19T14:11:46.994+01:00 TRACE 15916 --- [Cine_V2] [           main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {securityConfig=_DAM.Cine_V2.security.SecurityConfig$$SpringCGLIB$$0@2cca7d3c}
+2026-03-19T14:11:47.000+01:00  INFO 15916 --- [Cine_V2] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name cineUserDetailsService
+2026-03-19T14:11:47.105+01:00 DEBUG 15916 --- [Cine_V2] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-03-19T14:11:47.421+01:00  INFO 15916 --- [Cine_V2] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-19T14:11:47.426+01:00  INFO 15916 --- [Cine_V2] [           main] _DAM.Cine_V2.CineV2Application           : Started CineV2Application in 4.858 seconds (process running for 5.263)
+Hibernate: select count(*) from rol r1_0
+Hibernate: insert into rol (nombre) values (?)
+Hibernate: insert into rol (nombre) values (?)
+Hibernate: insert into usuario (email,enabled,password) values (?,?,?)
+Hibernate: insert into usuario_rol (usuario_id,rol_id) values (?,?)
+Hibernate: insert into usuario (email,enabled,password) values (?,?,?)
+Hibernate: insert into usuario_rol (usuario_id,rol_id) values (?,?)
+Hibernate: insert into director (nombre) values (?)
+Hibernate: insert into actor (nombre) values (?)
+Hibernate: insert into pelicula (director_id,duracion,edad_minima,titulo) values (?,?,?,?)
+Hibernate: insert into pelicula_actor (pelicula_id,actor_id) values (?,?)
+Hibernate: insert into sala (capacidad,nombre) values (?,?)
+Hibernate: insert into funcion (fecha_hora,pelicula_id,precio,sala_id) values (?,?,?,?)
+Data loaded successfully!
+2026-03-19T14:12:06.505+01:00  INFO 15916 --- [Cine_V2] [nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19T14:12:06.505+01:00  INFO 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-19T14:12:06.508+01:00  INFO 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-19T14:12:06.521+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [_DAM/Cine_V2/security/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Logout, JwtAuthentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, SessionManagement, ExceptionTranslation, Authorization] (1/1)
+2026-03-19T14:12:06.522+01:00 DEBUG 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/register
+2026-03-19T14:12:06.523+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/12)
+2026-03-19T14:12:06.523+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/12)
+2026-03-19T14:12:06.527+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/12)
+2026-03-19T14:12:06.528+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/12)
+2026-03-19T14:12:06.530+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (5/12)
+2026-03-19T14:12:06.532+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Or [PathPattern [GET /logout], PathPattern [POST /logout], PathPattern [PUT /logout], PathPattern [DELETE /logout]]
+2026-03-19T14:12:06.532+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking JwtAuthenticationFilter (6/12)
+2026-03-19T14:12:06.532+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (7/12)
+2026-03-19T14:12:06.532+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (8/12)
+2026-03-19T14:12:06.533+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (9/12)
+2026-03-19T14:12:06.533+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking SessionManagementFilter (10/12)
+2026-03-19T14:12:06.534+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] .s.s.w.c.SupplierDeferredSecurityContext : Created SecurityContextImpl [Null authentication]
+2026-03-19T14:12:06.536+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to AnonymousAuthenticationToken [Principal=anonymousUser, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ANONYMOUS]]
+2026-03-19T14:12:06.537+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (11/12)
+2026-03-19T14:12:06.537+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (12/12)
+2026-03-19T14:12:06.537+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] estMatcherDelegatingAuthorizationManager : Authorizing POST /auth/register
+2026-03-19T14:12:06.538+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] estMatcherDelegatingAuthorizationManager : Checking authorization on POST /auth/register using org.springframework.security.authorization.SingleResultAuthorizationManager@24c71e32
+2026-03-19T14:12:06.539+01:00 DEBUG 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/register
+Hibernate: insert into usuario (email,enabled,password) values (?,?,?)
+2026-03-19T14:12:06.861+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-2] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match request to [Is Secure]
+2026-03-19T14:12:09.813+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [_DAM/Cine_V2/security/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Logout, JwtAuthentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, SessionManagement, ExceptionTranslation, Authorization] (1/1)
+2026-03-19T14:12:09.813+01:00 DEBUG 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2026-03-19T14:12:09.813+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/12)
+2026-03-19T14:12:09.813+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/12)
+2026-03-19T14:12:09.813+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/12)
+2026-03-19T14:12:09.814+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/12)
+2026-03-19T14:12:09.814+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (5/12)
+2026-03-19T14:12:09.814+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Or [PathPattern [GET /logout], PathPattern [POST /logout], PathPattern [PUT /logout], PathPattern [DELETE /logout]]
+2026-03-19T14:12:09.814+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking JwtAuthenticationFilter (6/12)
+2026-03-19T14:12:09.814+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (7/12)
+2026-03-19T14:12:09.815+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (8/12)
+2026-03-19T14:12:09.815+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (9/12)
+2026-03-19T14:12:09.815+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking SessionManagementFilter (10/12)
+2026-03-19T14:12:09.815+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] .s.s.w.c.SupplierDeferredSecurityContext : Created SecurityContextImpl [Null authentication]
+2026-03-19T14:12:09.815+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to AnonymousAuthenticationToken [Principal=anonymousUser, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ANONYMOUS]]
+2026-03-19T14:12:09.815+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (11/12)
+2026-03-19T14:12:09.816+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (12/12)
+2026-03-19T14:12:09.816+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] estMatcherDelegatingAuthorizationManager : Authorizing POST /auth/login
+2026-03-19T14:12:09.816+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] estMatcherDelegatingAuthorizationManager : Checking authorization on POST /auth/login using org.springframework.security.authorization.SingleResultAuthorizationManager@24c71e32
+2026-03-19T14:12:09.816+01:00 DEBUG 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password from usuario u1_0 where u1_0.email=?
+Hibernate: select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuario_rol r1_0 join rol r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+2026-03-19T14:12:10.224+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-3] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match request to [Is Secure]
+2026-03-19T14:12:13.881+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [_DAM/Cine_V2/security/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Logout, JwtAuthentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, SessionManagement, ExceptionTranslation, Authorization] (1/1)
+2026-03-19T14:12:13.883+01:00 DEBUG 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/roles
+2026-03-19T14:12:13.883+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/12)
+2026-03-19T14:12:13.883+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/12)
+2026-03-19T14:12:13.883+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/12)
+2026-03-19T14:12:13.883+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/12)
+2026-03-19T14:12:13.883+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (5/12)
+2026-03-19T14:12:13.883+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Or [PathPattern [GET /logout], PathPattern [POST /logout], PathPattern [PUT /logout], PathPattern [DELETE /logout]]
+2026-03-19T14:12:13.883+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking JwtAuthenticationFilter (6/12)
+2026-03-19T14:12:13.959+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] .s.s.w.c.SupplierDeferredSecurityContext : Created SecurityContextImpl [Null authentication]
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password from usuario u1_0 where u1_0.email=?
+Hibernate: select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuario_rol r1_0 join rol r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+2026-03-19T14:12:14.016+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (7/12)
+2026-03-19T14:12:14.017+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (8/12)
+2026-03-19T14:12:14.017+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (9/12)
+2026-03-19T14:12:14.017+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking SessionManagementFilter (10/12)
+2026-03-19T14:12:14.017+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Did not set SecurityContextHolder since already authenticated UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=user5@cine.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_USER]]
+2026-03-19T14:12:14.017+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] s.CompositeSessionAuthenticationStrategy : Preparing session with ChangeSessionIdAuthenticationStrategy (1/1)
+2026-03-19T14:12:14.017+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (11/12)
+2026-03-19T14:12:14.018+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (12/12)
+2026-03-19T14:12:14.018+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] estMatcherDelegatingAuthorizationManager : Authorizing POST /api/v1/roles
+2026-03-19T14:12:14.018+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] estMatcherDelegatingAuthorizationManager : Checking authorization on POST /api/v1/roles using org.springframework.security.authorization.AuthenticatedAuthorizationManager@7cc20aa9
+2026-03-19T14:12:14.018+01:00 DEBUG 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/roles
+Hibernate: insert into rol (nombre) values (?)
+2026-03-19T14:12:14.079+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-4] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match request to [Is Secure]
+2026-03-19T14:12:18.091+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [_DAM/Cine_V2/security/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Logout, JwtAuthentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, SessionManagement, ExceptionTranslation, Authorization] (1/1)
+2026-03-19T14:12:18.091+01:00 DEBUG 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/usuarios
+2026-03-19T14:12:18.091+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/12)
+2026-03-19T14:12:18.091+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/12)
+2026-03-19T14:12:18.091+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/12)
+2026-03-19T14:12:18.092+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/12)
+2026-03-19T14:12:18.092+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (5/12)
+2026-03-19T14:12:18.092+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Or [PathPattern [GET /logout], PathPattern [POST /logout], PathPattern [PUT /logout], PathPattern [DELETE /logout]]
+2026-03-19T14:12:18.092+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking JwtAuthenticationFilter (6/12)
+2026-03-19T14:12:18.094+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] .s.s.w.c.SupplierDeferredSecurityContext : Created SecurityContextImpl [Null authentication]
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password from usuario u1_0 where u1_0.email=?
+Hibernate: select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuario_rol r1_0 join rol r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+2026-03-19T14:12:18.100+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (7/12)
+2026-03-19T14:12:18.100+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (8/12)
+2026-03-19T14:12:18.100+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (9/12)
+2026-03-19T14:12:18.100+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking SessionManagementFilter (10/12)
+2026-03-19T14:12:18.101+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Did not set SecurityContextHolder since already authenticated UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=user5@cine.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_USER]]
+2026-03-19T14:12:18.101+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] s.CompositeSessionAuthenticationStrategy : Preparing session with ChangeSessionIdAuthenticationStrategy (1/1)
+2026-03-19T14:12:18.101+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (11/12)
+2026-03-19T14:12:18.101+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (12/12)
+2026-03-19T14:12:18.101+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] estMatcherDelegatingAuthorizationManager : Authorizing POST /api/v1/usuarios
+2026-03-19T14:12:18.101+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] estMatcherDelegatingAuthorizationManager : Checking authorization on POST /api/v1/usuarios using org.springframework.security.authorization.AuthenticatedAuthorizationManager@7cc20aa9
+2026-03-19T14:12:18.101+01:00 DEBUG 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/usuarios
+Hibernate: select r1_0.id,r1_0.nombre from rol r1_0 where r1_0.nombre=?
+2026-03-19T14:12:18.149+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match request to [Is Secure]
+2026-03-19T14:12:18.149+01:00 ERROR 15916 --- [Cine_V2] [io-8081-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned] with root cause
+
+org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:315) ~[hibernate-core-7.2.1.Final.jar:7.2.1.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResultOrNull(AbstractSelectionQuery.java:330) ~[hibernate-core-7.2.1.Final.jar:7.2.1.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:328) ~[spring-data-jpa-4.0.2.jar:4.0.2]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:99) ~[spring-data-jpa-4.0.2.jar:4.0.2]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:164) ~[spring-data-jpa-4.0.2.jar:4.0.2]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:154) ~[spring-data-jpa-4.0.2.jar:4.0.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.0.2.jar:4.0.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.0.2.jar:4.0.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:167) ~[spring-data-commons-4.0.2.jar:4.0.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.0.2.jar:4.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.0.2.jar:4.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.3.jar:7.0.3]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.3.jar:7.0.3]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:137) ~[spring-data-jpa-4.0.2.jar:4.0.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222) ~[spring-aop-7.0.3.jar:7.0.3]
+	at jdk.proxy2/jdk.proxy2.$Proxy145.findByNombre(Unknown Source) ~[na:na]
+	at _DAM.Cine_V2.servicio.UsuarioService.save(UsuarioService.java:55) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.3.jar:7.0.3]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.3.jar:7.0.3]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.3.jar:7.0.3]
+	at _DAM.Cine_V2.servicio.UsuarioService$$SpringCGLIB$$0.save(<generated>) ~[classes/:na]
+	at _DAM.Cine_V2.controlador.UsuarioController.create(UsuarioController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at _DAM.Cine_V2.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:64) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.2.jar:7.0.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [_DAM/Cine_V2/security/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Logout, JwtAuthentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, SessionManagement, ExceptionTranslation, Authorization] (1/1)
+2026-03-19T14:12:18.163+01:00 DEBUG 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/12)
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/12)
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/12)
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/12)
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (5/12)
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Or [PathPattern [GET /logout], PathPattern [POST /logout], PathPattern [PUT /logout], PathPattern [DELETE /logout]]
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking JwtAuthenticationFilter (6/12)
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (7/12)
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (8/12)
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (9/12)
+2026-03-19T14:12:18.163+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking SessionManagementFilter (10/12)
+2026-03-19T14:12:18.164+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (11/12)
+2026-03-19T14:12:18.164+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (12/12)
+2026-03-19T14:12:18.164+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] estMatcherDelegatingAuthorizationManager : Authorizing GET /error
+2026-03-19T14:12:18.164+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] estMatcherDelegatingAuthorizationManager : Checking authorization on GET /error using org.springframework.security.authorization.SingleResultAuthorizationManager@24c71e32
+2026-03-19T14:12:18.164+01:00 DEBUG 15916 --- [Cine_V2] [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /error
+2026-03-19T14:12:18.180+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] .s.s.w.c.SupplierDeferredSecurityContext : Created SecurityContextImpl [Null authentication]
+2026-03-19T14:12:18.180+01:00 TRACE 15916 --- [Cine_V2] [io-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to AnonymousAuthenticationToken [Principal=anonymousUser, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ANONYMOUS]]
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [_DAM/Cine_V2/security/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Logout, JwtAuthentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, SessionManagement, ExceptionTranslation, Authorization] (1/1)
+2026-03-19T14:12:23.116+01:00 DEBUG 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/12)
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/12)
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/12)
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/12)
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (5/12)
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Or [PathPattern [GET /logout], PathPattern [POST /logout], PathPattern [PUT /logout], PathPattern [DELETE /logout]]
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking JwtAuthenticationFilter (6/12)
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (7/12)
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (8/12)
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (9/12)
+2026-03-19T14:12:23.116+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking SessionManagementFilter (10/12)
+2026-03-19T14:12:23.117+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] .s.s.w.c.SupplierDeferredSecurityContext : Created SecurityContextImpl [Null authentication]
+2026-03-19T14:12:23.117+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to AnonymousAuthenticationToken [Principal=anonymousUser, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ANONYMOUS]]
+2026-03-19T14:12:23.117+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (11/12)
+2026-03-19T14:12:23.117+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (12/12)
+2026-03-19T14:12:23.117+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] estMatcherDelegatingAuthorizationManager : Authorizing POST /auth/login
+2026-03-19T14:12:23.117+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] estMatcherDelegatingAuthorizationManager : Checking authorization on POST /auth/login using org.springframework.security.authorization.SingleResultAuthorizationManager@24c71e32
+2026-03-19T14:12:23.117+01:00 DEBUG 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password from usuario u1_0 where u1_0.email=?
+Hibernate: select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuario_rol r1_0 join rol r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+2026-03-19T14:12:23.124+01:00  WARN 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.s.c.bcrypt.BCryptPasswordEncoder     : Encoded password does not look like BCrypt
+2026-03-19T14:12:23.127+01:00 TRACE 15916 --- [Cine_V2] [nio-8081-exec-7] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match request to [Is Secure]

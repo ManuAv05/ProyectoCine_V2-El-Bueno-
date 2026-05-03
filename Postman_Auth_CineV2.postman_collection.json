@@ -1,0 +1,115 @@
+{
+	"info": {
+		"name": "Auth JWT - Cine V2",
+		"description": "Colección auto-generada para probar el registro, login y endpoints protegidos con JWT.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Registrar Usuario",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"manuel@ejemplo.com\",\n  \"password\": \"123456\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			}
+		},
+		{
+			"name": "2. Hacer Login (Obtener y Guardar JWT)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData.token) {",
+							"    pm.collectionVariables.set('jwt_token', jsonData.token);",
+							"    console.log('Token guardado en variable: ' + jsonData.token);",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"manuel@ejemplo.com\",\n  \"password\": \"123456\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8081/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			}
+		},
+		{
+			"name": "3. Probar Autenticación (Ej: GET Peliculas)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/peliculas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"peliculas"
+					]
+				}
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "jwt_token",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

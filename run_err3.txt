@@ -1,0 +1,106 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< 2DAM:Cine_V2_Base >--------------------------
+[INFO] Building Cine_V2_Base 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ Cine_V2_Base ---
+[INFO] Deleting C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-\target
+[INFO] 
+[INFO] >>> spring-boot:4.0.2:run (default-cli) > test-compile @ Cine_V2_Base >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Cine_V2_Base ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ Cine_V2_Base ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 77 source files with javac [debug parameters release 21] to target\classes
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Usuario.java:[27,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Usuario.java:[31,22] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Sala.java:[26,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Pelicula.java:[32,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Pelicula.java:[35,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Funcion.java:[35,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Actor.java:[25,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Director.java:[25,27] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/modelo/Venta.java:[29,26] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/mapper/ActorMapper.java:[15,11] Unmapped target properties: "id, peliculas".
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/mapper/ActorMapper.java:[18,10] Unmapped target property: "peliculas".
+[WARNING] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/mapper/UsuarioMapper.java:[33,10] Unmapped target property: "enabled".
+[INFO] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/security/JwtAuthenticationFilter.java: C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-\src\main\java\_DAM\Cine_V2\security\JwtAuthenticationFilter.java uses or overrides a deprecated API.
+[INFO] /C:/Users/Manuel/Desktop/ProyectoCine_V2-El-Bueno-/src/main/java/_DAM/Cine_V2/security/JwtAuthenticationFilter.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Cine_V2_Base ---
+[INFO] skip non existing resourceDirectory C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ Cine_V2_Base ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target\test-classes
+[INFO] 
+[INFO] <<< spring-boot:4.0.2:run (default-cli) < test-compile @ Cine_V2_Base <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.2:run (default-cli) @ Cine_V2_Base ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.2)
+
+2026-03-19T13:18:11.843+01:00  INFO 3624 --- [Cine_V2] [           main] _DAM.Cine_V2.CineV2Application           : Starting CineV2Application using Java 21.0.9 with PID 3624 (C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-\target\classes started by Manuel in C:\Users\Manuel\Desktop\ProyectoCine_V2-El-Bueno-)
+2026-03-19T13:18:11.847+01:00  INFO 3624 --- [Cine_V2] [           main] _DAM.Cine_V2.CineV2Application           : No active profile set, falling back to 1 default profile: "default"
+2026-03-19T13:18:12.491+01:00  INFO 3624 --- [Cine_V2] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-19T13:18:12.577+01:00  INFO 3624 --- [Cine_V2] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 9 JPA repository interfaces.
+2026-03-19T13:18:13.069+01:00  INFO 3624 --- [Cine_V2] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-03-19T13:18:13.081+01:00  INFO 3624 --- [Cine_V2] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-19T13:18:13.081+01:00  INFO 3624 --- [Cine_V2] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-19T13:18:13.147+01:00  INFO 3624 --- [Cine_V2] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1248 ms
+2026-03-19T13:18:13.266+01:00  INFO 3624 --- [Cine_V2] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-19T13:18:13.316+01:00  INFO 3624 --- [Cine_V2] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-19T13:18:13.732+01:00  INFO 3624 --- [Cine_V2] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-19T13:18:13.763+01:00  INFO 3624 --- [Cine_V2] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-19T13:18:13.906+01:00  INFO 3624 --- [Cine_V2] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b339a08
+2026-03-19T13:18:13.908+01:00  INFO 3624 --- [Cine_V2] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-19T13:18:13.953+01:00  WARN 3624 --- [Cine_V2] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-19T13:18:13.975+01:00  INFO 3624 --- [Cine_V2] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5433/cine_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.15
+	Default catalog/schema: cine_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-19T13:18:15.000+01:00  INFO 3624 --- [Cine_V2] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-19T13:18:15.077+01:00  INFO 3624 --- [Cine_V2] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-19T13:18:15.149+01:00  INFO 3624 --- [Cine_V2] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-19T13:18:15.662+01:00  WARN 3624 --- [Cine_V2] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-19T13:18:15.802+01:00  INFO 3624 --- [Cine_V2] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name cineUserDetailsService
+2026-03-19T13:18:16.966+01:00  INFO 3624 --- [Cine_V2] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-03-19T13:18:16.972+01:00  INFO 3624 --- [Cine_V2] [           main] _DAM.Cine_V2.CineV2Application           : Started CineV2Application in 5.5 seconds (process running for 5.94)
+Hibernate: select count(*) from rol r1_0
+2026-03-19T13:39:38.887+01:00  INFO 3624 --- [Cine_V2] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-19T13:39:38.887+01:00  INFO 3624 --- [Cine_V2] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-19T13:39:38.888+01:00  INFO 3624 --- [Cine_V2] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: insert into usuario (email,enabled,password) values (?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password from usuario u1_0 where u1_0.email=?
+Hibernate: select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuario_rol r1_0 join rol r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+Hibernate: select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuario_rol r1_0 join rol r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+Hibernate: insert into usuario (email,enabled,password) values (?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password from usuario u1_0 where u1_0.email=?
+Hibernate: select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuario_rol r1_0 join rol r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+Hibernate: insert into usuario (email,enabled,password) values (?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password from usuario u1_0 where u1_0.email=?
+Hibernate: select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuario_rol r1_0 join rol r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.password from usuario u1_0 where u1_0.email=?
+Hibernate: select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuario_rol r1_0 join rol r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
